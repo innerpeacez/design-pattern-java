@@ -9,9 +9,7 @@ public class Client {
         SourceA sourceA = new SourceA();
         Bridge bridge = new Bridge(sourceA);
         bridge.method();
-
         System.out.println("-----------------------------------------");
-
         SourceB sourceB = new SourceB();
         bridge = new Bridge(sourceB);
         bridge.method();
