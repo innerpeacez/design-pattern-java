@@ -19,7 +19,6 @@ public class VisitorTest {
         // 创建成功的访问者对象
         Visitor successVisitor = new SuccessVisitor();
 
-
         objectStructure.doSomething(successVisitor);
     }
 }
