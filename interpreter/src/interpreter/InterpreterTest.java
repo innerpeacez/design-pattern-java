@@ -6,7 +6,6 @@ package interpreter;
 public class InterpreterTest {
 
     public static void main(String[] args) {
-
         // 解释表达式 ： 1 # 3 ，将 # 解释为 + ，加法运算
 
         // 终结符表达式

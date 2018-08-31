@@ -51,4 +51,4 @@
 
 [二十二、中介者模式（mediator）](http://blog.csdn.net/zhwyj1019/article/details/79817147)
 
-[二十三、解释器模式](http://blog.csdn.net/zhwyj1019/article/details/79866690)
+[二十三、解释器模式（interpreter）](http://blog.csdn.net/zhwyj1019/article/details/79866690)
