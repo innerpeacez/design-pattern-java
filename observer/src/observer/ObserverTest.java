@@ -10,7 +10,6 @@ public class ObserverTest {
     public static void main(String[] args) {
         // 创建我的blog对象
         MyBlog myBlog = new MyBlog();
-
         // 创建粉丝对象
         FansA fansA = new FansA();
         FansB fansB = new FansB();
