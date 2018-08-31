@@ -14,7 +14,6 @@ public class Client {
 
     // 判断是否拥有代理对象的权利
     private boolean haveAuthority() {
-
         if(authority.getClass() == Proxy.class) {
             return true;
         }
