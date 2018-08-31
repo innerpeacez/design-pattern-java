@@ -8,9 +8,7 @@ public class TemplateTest {
     public static void main(String[] args) {
         SpicyFragrantPot spicyFragrantPotA = new CustomerA();
         spicyFragrantPotA.makingMethod();
-
         System.out.println("-----------------------------------");
-
         SpicyFragrantPot spicyFragrantPotB = new CustomerB();
         spicyFragrantPotB.makingMethod();
     }
