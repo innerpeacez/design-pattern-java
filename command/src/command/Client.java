@@ -24,6 +24,5 @@ public class Client {
         LightOffCommand lightOffCommand = new LightOffCommand(light);
         xiaoAi.setCommand(lightOffCommand);
         xiaoAi.doCommand();
-
     }
 }
