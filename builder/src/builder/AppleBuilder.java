@@ -13,6 +13,7 @@ public class AppleBuilder extends AbstractBuilder{
 
     @Override
     public void buildName() {
+
         product.setName("苹果手机");
     }
 
