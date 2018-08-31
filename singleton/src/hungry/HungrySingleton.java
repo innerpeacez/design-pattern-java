@@ -6,8 +6,7 @@ package hungry;
 public class HungrySingleton {
 
     // 私有化构造方法，防止外部实例化
-    private HungrySingleton() {
-    }
+    private HungrySingleton() {}
 
     // 饿汉模式在类加载的时候，对象就已经被实例化
     private static HungrySingleton hungrySingleton = new HungrySingleton();

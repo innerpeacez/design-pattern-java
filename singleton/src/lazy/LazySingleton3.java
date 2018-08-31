@@ -7,8 +7,7 @@ package lazy;
 public class LazySingleton3 {
 
     // 私有化构造方法，防止外部实例化
-    private LazySingleton3() {
-    }
+    private LazySingleton3() {}
 
     // 懒汉模式，在类加载的时候并不实例化对象，而是在第一次调用获取实例化方法的时候实例化对象
     private static LazySingleton3 lazySingleton = null;
