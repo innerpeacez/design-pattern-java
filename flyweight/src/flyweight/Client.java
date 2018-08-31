@@ -9,6 +9,7 @@ import java.util.List;
 public class Client {
 
     public static void main(String[] args) {
+        
         /*FlyweightFactory factory = new FlyweightFactory();
         Flyweight flyweight = factory.getFlyweight("first_internalState");
         flyweight.operation("first_externalState");
