@@ -13,9 +13,7 @@ public class Client {
         moduleA.doAThing();
         moduleB.doBThing();
         moduleC.doCThing();
-
         System.out.println("-----------------------------------------------");
-
         System.out.println("有外观对象*************");
         Facade facade = new Facade();
         facade.doSomething();
