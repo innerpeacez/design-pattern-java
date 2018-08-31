@@ -6,6 +6,7 @@ package state;
 public class StateTest {
 
     public static void main(String[] args) {
+
         // 创建灯对象
         LightContext lightContext = new LightContext();
         // 按一次开关

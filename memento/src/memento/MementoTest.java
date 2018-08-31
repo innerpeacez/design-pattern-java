@@ -6,7 +6,7 @@ package memento;
 public class MementoTest {
 
     public static void main(String[] args) {
-        
+
         Originator originator = new Originator();
         originator.setImportantState("重要属性");
         originator.setCommonState("普通属性");
