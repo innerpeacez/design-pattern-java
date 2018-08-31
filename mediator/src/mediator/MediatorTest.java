@@ -6,6 +6,7 @@ package mediator;
 public class MediatorTest {
 
     public static void main(String[] args) {
+        
         // 创建具体中介者对象
         ConcreteMediator mediator = new ConcreteMediator();
 
