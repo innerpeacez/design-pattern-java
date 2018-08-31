@@ -34,7 +34,6 @@ public class IteratorTest {
         breakfastMenu.setMenu();
         LunchMenu lunchMenu = new LunchMenu();
         lunchMenu.setMenu();
-
         NewMenu2 newMenu2 = new NewMenu2(breakfastMenu, lunchMenu);
         newMenu2.setNewMenu();
         List newMenu = newMenu2.getNewMenu();
