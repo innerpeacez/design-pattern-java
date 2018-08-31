@@ -7,6 +7,7 @@ public class American implements People {
 
     @Override
     public void say() {
+
         System.out.println("Hello!");
     }
 }

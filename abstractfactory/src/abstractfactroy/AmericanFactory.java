@@ -7,6 +7,7 @@ public class AmericanFactory implements AbstractPeopleFactory {
 
     @Override
     public People createPeople() {
+
         return new American();
     }
 }

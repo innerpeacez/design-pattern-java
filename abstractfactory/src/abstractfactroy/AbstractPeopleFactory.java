@@ -5,5 +5,7 @@ package abstractfactroy;
  */
 public interface AbstractPeopleFactory {
 
+
     public People createPeople();
+
 }

@@ -5,5 +5,6 @@ package abstractfactroy;
  */
 public interface People {
 
+
     public void say();
 }
