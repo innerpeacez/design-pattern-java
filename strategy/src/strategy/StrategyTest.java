@@ -10,7 +10,6 @@ public class StrategyTest {
 
         System.out.println("同志配合一下,对着酒精检测仪吹一下！！！");
         System.out.println(":(");
-
         TrafficPolice trafficPolice = new TrafficPolice(new MoreDrinkDriving());
         trafficPolice.doStrategy();
     }

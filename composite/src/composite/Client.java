@@ -13,7 +13,7 @@ public class Client {
         Phone phone = new Phone("手机");
         // 创建相机类目
         Camera camera = new Camera("相机");
-        
+
         // 添加数码产品的下级目录
         digitalProduct.addSubGood(phone);
         digitalProduct.addSubGood(camera);
