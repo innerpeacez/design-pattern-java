@@ -7,6 +7,7 @@ package chain;
 public class Client {
 
     public static void main(String[] args) {
+
         System.out.println("--------发出请求：手机主板已经生产好了！需要组装屏幕，电池和外壳！---------");
         // 创建请求
         ScreenRequest screenRequest = new ScreenRequest();
