@@ -11,6 +11,7 @@ public class PrototypeTest  {
 
         // 创建一个具体的需要克隆的对象
         ConcretePrototype concretePrototype = new ConcretePrototype();
+        
         // 填充属性，方便测试
         concretePrototype.setTest1(1);
         concretePrototype.setTest2("prototype");
